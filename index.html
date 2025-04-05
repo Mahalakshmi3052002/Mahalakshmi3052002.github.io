@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung Phones & Accessories</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://images.unsplash.com/photo-1603898037225-bf34f3db55ac') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+        nav a {
+            color: white;
+            padding: 1em;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background-color: #444;
+        }
+        section {
+            padding: 2em;
+            background-color: rgba(0, 0, 0, 0.6);
+            margin: 1em;
+            border-radius: 10px;
+        }
+        h1, h2 {
+            color: #00bcd4;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 2em 0;
+        }
+        .video-container video {
+            width: 80%;
+            border-radius: 10px;
+        }
+        button {
+            background-color: #00bcd4;
+            color: white;
+            padding: 0.5em 1em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 1em;
+        }
+        button:hover {
+            background-color: #0097a7;
+        }
+        input[type="text"] {
+            padding: 0.5em;
+            border-radius: 5px;
+            border: none;
+            margin-top: 1em;
+            width: 100%;
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            text-align: center;
+            padding: 1em;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Samsung Phones & Accessories</h1>
+        <p>Explore the latest technology in your hands</p>
+    </header>
+    <nav>
+        <a href="#phones">Phones</a>
+        <a href="#accessories">Accessories</a>
+        <a href="#promo">Promo Video</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="phones">
+        <h2>Latest Samsung Phones</h2>
+        <p>Check out the latest models like Galaxy S24 Ultra, Z Fold5, and more. Each phone offers unparalleled performance and design.</p>
+        <button>Shop Now</button>
+    </section>
+
+    <section id="accessories">
+        <h2>Accessories</h2>
+        <p>From wireless earbuds to smartwatches and fast chargers, explore accessories that complement your phone perfectly.</p>
+        <button>Browse Accessories</button>
+    </section>
+
+    <section id="promo">
+        <h2>Watch Our Promo</h2>
+        <div class="video-container">
+            <video controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to know more?</p>
+        <input type="text" placeholder="Enter your email">
+        <button>Subscribe</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Samsung. All rights reserved.</p>
+    </footer>
+</body>
+</html>
